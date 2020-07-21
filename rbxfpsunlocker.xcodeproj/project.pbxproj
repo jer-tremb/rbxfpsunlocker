@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		67B84C55B0494ED9A243ED9E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F831F045B16B4FA885BBBEC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E0B61645520E45B1B0451B65 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9A202F1B53724DE7BB59BC64 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 21300315938A48FDBD04157A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2865D2961568400D8EC4B692 /* CMake Rules */,
+			);
+			dependencies = (
+				525845447ED645209FADAFA9 /* PBXTargetDependency */,
+				FB7B681D947A486AB89AF645 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13EADD6C0B8F456B86418CC7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/main.cpp */ = {isa = PBXBuildFile; fileRef = A5252B6BB9F54CA9B897BB83 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/main.cpp */; };
+		39DB78C79DA14F9FAAFAB003 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.cpp */ = {isa = PBXBuildFile; fileRef = 51CE690C9F2D4308A1CB2800 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.cpp */; };
+		534E0B3CEB074EF9BEF0421A /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.cpp */ = {isa = PBXBuildFile; fileRef = 70A98A18AEA545E9AE1B77E7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.cpp */; };
+		5941277687C443398B831DC5 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.h */ = {isa = PBXBuildFile; fileRef = B409F123D6E44EABAE48BDE8 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.h */; };
+		67838F7717A44D45B7F4F099 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/resource.h */ = {isa = PBXBuildFile; fileRef = 7FE792E382594709B4434B0C /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/resource.h */; };
+		7F7A6012EB884312B2AC7715 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.cpp */ = {isa = PBXBuildFile; fileRef = 63A176D98AC24EE19FBAA191 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.cpp */; };
+		99C151BD970F403BA19C6F92 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/rfu.h */ = {isa = PBXBuildFile; fileRef = 3E89601B6DF54F9CA43EF847 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/rfu.h */; };
+		9E00D3F66F034839B3BF2493 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.h */ = {isa = PBXBuildFile; fileRef = 66DB277B9060471388188542 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.h */; };
+		A2F4BA90B25945F4B7DCDB13 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.cpp */ = {isa = PBXBuildFile; fileRef = 7F6E78CF66E043ABBC27780E /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.cpp */; };
+		B00C180BFD2A47C4865F47F2 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B784BBE2AD114B58BF1246C7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/CMakeLists.txt */; };
+		D9CA8D9E0C4344A398A7E2F6 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/version.cpp */ = {isa = PBXBuildFile; fileRef = CDC7538DF9274635AA7A9727 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/version.cpp */; };
+		DD38D689CBC643D4847D091E /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.h */ = {isa = PBXBuildFile; fileRef = 8D5D88CE82B348F3907049F4 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.h */; };
+		E6A1A1FA0869401EBAB0C262 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.h */ = {isa = PBXBuildFile; fileRef = 60B686FE1C0B4A11A6B9C0BF /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		15D4C1ABB95D4772B5CFE842 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7F110BA1C58341E3813C5F1D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		82A631C7B8D6491680AA9CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB6055339AC444EB492BAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC14A263E0464E6EBF9CBCD4;
+			remoteInfo = rbxfpsunlocker;
+		};
+		F1A3BB9556F14EF5805ED228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB6055339AC444EB492BAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B84C55B0494ED9A243ED9E;
+			remoteInfo = ZERO_CHECK;
+		};
+		FB53201DC82C43BE900062E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB6055339AC444EB492BAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B84C55B0494ED9A243ED9E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E89601B6DF54F9CA43EF847 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/rfu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rfu.h; path = Source/rfu.h; sourceTree = SOURCE_ROOT; };
+		51CE690C9F2D4308A1CB2800 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = procutil.cpp; path = Source/procutil.cpp; sourceTree = SOURCE_ROOT; };
+		60B686FE1C0B4A11A6B9C0BF /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui.h; path = Source/ui.h; sourceTree = SOURCE_ROOT; };
+		63A176D98AC24EE19FBAA191 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ui.cpp; path = Source/ui.cpp; sourceTree = SOURCE_ROOT; };
+		66DB277B9060471388188542 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = procutil.h; path = Source/procutil.h; sourceTree = SOURCE_ROOT; };
+		70A98A18AEA545E9AE1B77E7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sigscan.cpp; path = Source/sigscan.cpp; sourceTree = SOURCE_ROOT; };
+		7F6E78CF66E043ABBC27780E /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = settings.cpp; path = Source/settings.cpp; sourceTree = SOURCE_ROOT; };
+		7FE792E382594709B4434B0C /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/resource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = resource.h; path = Source/resource.h; sourceTree = SOURCE_ROOT; };
+		8D5D88CE82B348F3907049F4 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sigscan.h; path = Source/sigscan.h; sourceTree = SOURCE_ROOT; };
+		912465C1B8624DCE920C7864 /* /Users/jtremblay/Tools/rbxfpsunlocker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A5252B6BB9F54CA9B897BB83 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = Source/main.cpp; sourceTree = SOURCE_ROOT; };
+		B409F123D6E44EABAE48BDE8 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = settings.h; path = Source/settings.h; sourceTree = SOURCE_ROOT; };
+		B784BBE2AD114B58BF1246C7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Source/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CDC7538DF9274635AA7A9727 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/version.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = version.cpp; path = Source/version.cpp; sourceTree = SOURCE_ROOT; };
+		DDEC9B3B9E284108BCA0CACE /* rbxfpsunlocker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rbxfpsunlocker; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08AAFA3D2F4042CBBA68B872 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		284F9758273F42A688FA7C17 = {
+			isa = PBXGroup;
+			children = (
+				9B1F704E7DF341A78B7A07BD /* ALL_BUILD */,
+				B3B5F4E8367E4382B0A543C6 /* rbxfpsunlocker */,
+				B428907BD1D349D8A5A0FFC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F27AD18028841888FE9D2A3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5252B6BB9F54CA9B897BB83 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/main.cpp */,
+				51CE690C9F2D4308A1CB2800 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.cpp */,
+				66DB277B9060471388188542 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.h */,
+				7FE792E382594709B4434B0C /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/resource.h */,
+				3E89601B6DF54F9CA43EF847 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/rfu.h */,
+				7F6E78CF66E043ABBC27780E /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.cpp */,
+				B409F123D6E44EABAE48BDE8 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.h */,
+				70A98A18AEA545E9AE1B77E7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.cpp */,
+				8D5D88CE82B348F3907049F4 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.h */,
+				63A176D98AC24EE19FBAA191 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.cpp */,
+				60B686FE1C0B4A11A6B9C0BF /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.h */,
+				CDC7538DF9274635AA7A9727 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/version.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9B1F704E7DF341A78B7A07BD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				08AAFA3D2F4042CBBA68B872 /* CMake Rules */,
+				912465C1B8624DCE920C7864 /* /Users/jtremblay/Tools/rbxfpsunlocker/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B3B5F4E8367E4382B0A543C6 /* rbxfpsunlocker */ = {
+			isa = PBXGroup;
+			children = (
+				7F27AD18028841888FE9D2A3 /* Source Files */,
+				B784BBE2AD114B58BF1246C7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/CMakeLists.txt */,
+			);
+			name = rbxfpsunlocker;
+			sourceTree = "<group>";
+		};
+		B428907BD1D349D8A5A0FFC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC9B3B9E284108BCA0CACE /* rbxfpsunlocker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC14A263E0464E6EBF9CBCD4 /* rbxfpsunlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1C208071D04246942F76DC /* Build configuration list for PBXNativeTarget "rbxfpsunlocker" */;
+			buildPhases = (
+				0C55DF951B80453AA1C0957A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16E9530203EA4BBF9FDD90C4 /* PBXTargetDependency */,
+			);
+			name = rbxfpsunlocker;
+			productName = rbxfpsunlocker;
+			productReference = DDEC9B3B9E284108BCA0CACE /* rbxfpsunlocker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB6055339AC444EB492BAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1160;
+			};
+			buildConfigurationList = F8BB3F54E5B84A1284384DC9 /* Build configuration list for PBXProject "rbxfpsunlocker" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				15D4C1ABB95D4772B5CFE842 /* Debug */,
+				7F110BA1C58341E3813C5F1D /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 284F9758273F42A688FA7C17;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				9A202F1B53724DE7BB59BC64 /* ALL_BUILD */,
+				67B84C55B0494ED9A243ED9E /* ZERO_CHECK */,
+				DC14A263E0464E6EBF9CBCD4 /* rbxfpsunlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2865D2961568400D8EC4B692 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jtremblay/Tools/rbxfpsunlocker -f /Users/jtremblay/Tools/rbxfpsunlocker/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		59B90F3F4127477E88C6A6FB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6D48804BDFAD4994B33A7991 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E0B61645520E45B1B0451B65 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jtremblay/Tools/rbxfpsunlocker -f /Users/jtremblay/Tools/rbxfpsunlocker/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C55DF951B80453AA1C0957A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EADD6C0B8F456B86418CC7 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/main.cpp */,
+				39DB78C79DA14F9FAAFAB003 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/procutil.cpp */,
+				A2F4BA90B25945F4B7DCDB13 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/settings.cpp */,
+				534E0B3CEB074EF9BEF0421A /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/sigscan.cpp */,
+				7F7A6012EB884312B2AC7715 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/ui.cpp */,
+				D9CA8D9E0C4344A398A7E2F6 /* /Users/jtremblay/Tools/rbxfpsunlocker/Source/version.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16E9530203EA4BBF9FDD90C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B84C55B0494ED9A243ED9E /* ZERO_CHECK */;
+			targetProxy = F1A3BB9556F14EF5805ED228 /* PBXContainerItemProxy */;
+		};
+		525845447ED645209FADAFA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B84C55B0494ED9A243ED9E /* ZERO_CHECK */;
+			targetProxy = FB53201DC82C43BE900062E9 /* PBXContainerItemProxy */;
+		};
+		FB7B681D947A486AB89AF645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC14A263E0464E6EBF9CBCD4 /* rbxfpsunlocker */;
+			targetProxy = 82A631C7B8D6491680AA9CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BB551764233444D9B3B4BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker/build;
+			};
+			name = Debug;
+		};
+		3438DADD9C2C4F39BCA5A07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3FB7C2D09CF541EE92EB3A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		60978C4339384C479C6B7225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		77A3F44208804BF2A0248A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jtremblay/Tools/rbxfpsunlocker/x64/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS,_MBCS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jtremblay/Tools/rbxfpsunlocker/Source/Users/jtremblay/Tools/rbxfpsunlockerBlackbone/src,/Users/jtremblay/Tools/rbxfpsunlocker/Source/Users/jtremblay/Tools/rbxfpsunlockerBlackbone/contrib);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES_THIN;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-flto=thin'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rbxfpsunlocker;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker/Source;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7AF1E65B8949439792749CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8DD4A40A112345BA9E9A9769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jtremblay/Tools/rbxfpsunlocker/x64/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS,_MBCS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jtremblay/Tools/rbxfpsunlocker/Source/Users/jtremblay/Tools/rbxfpsunlockerBlackbone/src,/Users/jtremblay/Tools/rbxfpsunlocker/Source/Users/jtremblay/Tools/rbxfpsunlockerBlackbone/contrib);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rbxfpsunlocker;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker/Source;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CA97DC063D0D48AD8D0836C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/jtremblay/Tools/rbxfpsunlocker/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21300315938A48FDBD04157A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60978C4339384C479C6B7225 /* Debug */,
+				3438DADD9C2C4F39BCA5A07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B1C208071D04246942F76DC /* Build configuration list for PBXNativeTarget "rbxfpsunlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD4A40A112345BA9E9A9769 /* Debug */,
+				77A3F44208804BF2A0248A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F831F045B16B4FA885BBBEC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB7C2D09CF541EE92EB3A5A /* Debug */,
+				7AF1E65B8949439792749CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8BB3F54E5B84A1284384DC9 /* Build configuration list for PBXProject "rbxfpsunlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB551764233444D9B3B4BE1 /* Debug */,
+				CA97DC063D0D48AD8D0836C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AB6055339AC444EB492BAE3 /* Project object */;
+}

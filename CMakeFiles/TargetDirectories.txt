@@ -1,0 +1,3 @@
+/Users/jtremblay/Tools/rbxfpsunlocker/CMakeFiles/ALL_BUILD.dir
+/Users/jtremblay/Tools/rbxfpsunlocker/CMakeFiles/ZERO_CHECK.dir
+/Users/jtremblay/Tools/rbxfpsunlocker/Source/CMakeFiles/rbxfpsunlocker.dir
